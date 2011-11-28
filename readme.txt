@@ -22,10 +22,12 @@ More info: [iCheckMovies Widget](http://moprea.ro/2011/11/28/icheckmovies-widget
 
 
 e.g.
-
-1. Unzip `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Got `/wp-content/plugins/`
+1. Download plugin: `wget --no-check-certificate https://github.com/madalinoprea/magneto-icheckmovies/zipball/master`
+1. Unzip to `/wp-content/plugins/`: unzip magneto-icheckmovies.zip
+1. You might need to rename unzipped folder to `magneto-debug`
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Place widget to desired region in Admin / Appearance / Widgets
 
 == Frequently Asked Questions ==
 
